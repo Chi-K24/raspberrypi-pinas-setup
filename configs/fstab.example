@@ -1,0 +1,2 @@
+UUID=<NVME_UUID> /mnt/nvme2tb ext4  defaults,noatime,nofail 0 2
+UUID=<USB_UUID>  /mnt/usb1tb  ntfs3 defaults,uid=1000,gid=1000,noatime,nofail,permissions 0 0

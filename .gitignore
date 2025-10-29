@@ -1,0 +1,27 @@
+# Logs and runtime files
+*.log
+*.pid
+*.sock
+*.tmp
+*.swp
+
+# Backups and archives
+*.tar.gz
+*.zip
+/mnt/
+/srv/filebrowser/filebrowser.db
+/var/log/pinas-*.log
+pinas_backups/
+
+# Secrets and real configs
+/etc/
+/home/
+/root/
+/var/
+/srv/
+/mnt/
+
+# System noise
+.DS_Store
+Thumbs.db
+__pycache__/
